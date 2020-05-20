@@ -1,0 +1,13 @@
+INSERT into users (id, email, name) VALUES (1, 'eee', 'rrr');
+INSERT into users (id, email, name) VALUES (2, 'ttt', 'uuu');
+INSERT into account (id, card, currency, sum, user_id) VALUES (1, 111, 'UAN', 1000, 1);
+INSERT into account (id, card, currency, sum, user_id) VALUES (2, 222, 'UAN', 1000, 2);
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (1,29,'UAN','EURO');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (2,0.034,'EURO','UAN');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (3,25,'UAN','USD');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (4,0.04,'USD','UAN');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (5,0.92,'USD','EURO');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (6,1.09,'EURO','USD');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (7,1,'UAN','UAN');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (8,1,'EURO','EURO');
+INSERT into course(id, coefficient, currency_from, currency_to) VALUES (9,1,'USD','USD');
